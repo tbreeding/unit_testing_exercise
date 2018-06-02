@@ -1,0 +1,12 @@
+# VS Code
+
+.vscode/*
+
+# Node.js
+
+node_modules/
+
+# Project 
+
+public/css/
+server.log

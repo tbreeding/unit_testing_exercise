@@ -1,0 +1,29 @@
+{
+  "name": "unit_testing_exercise",
+  "version": "1.0.0",
+  "description": "Finally learning some testing practices!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbreeding/unit_testing_exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbreeding/unit_testing_exercise/issues"
+  },
+  "homepage": "https://github.com/tbreeding/unit_testing_exercise#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^5.2.0",
+    "rewire": "^4.0.1",
+    "supertest": "^2.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
